@@ -22,5 +22,7 @@ namespace HotelProject.DataAccessLayer.Concrete
 
         }
 
+
+
     }
 }
