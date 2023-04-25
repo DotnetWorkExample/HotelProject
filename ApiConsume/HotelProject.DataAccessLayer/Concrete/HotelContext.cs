@@ -18,11 +18,9 @@ namespace HotelProject.DataAccessLayer.Concrete
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=MRFARLEY\\SQLSRV;Database=Hotel;Trusted_Connection=True");
+            optionsBuilder.UseSqlServer("Server=localhost;Database=Hotel;Trusted_Connection=True");
 
         }
-
-
 
     }
 }
