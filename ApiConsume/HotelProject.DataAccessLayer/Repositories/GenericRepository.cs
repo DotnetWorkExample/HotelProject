@@ -1,14 +1,11 @@
 ﻿using HotelProject.DataAccessLayer.Abstract;
 using HotelProject.DataAccessLayer.Concrete;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HotelProject.DataAccessLayer.Repositories
 {
-    public class GenericRepository<T> : IGeneric<T> where T : class
+    public class GenericRepository<T> : IGenericDal<T> where T : class
     {
         private readonly HotelContext _context;
 
@@ -21,32 +18,28 @@ namespace HotelProject.DataAccessLayer.Repositories
         {
             _context.Remove(t);
             _context.SaveChanges();
-
         }
 
-        public void GetByID(int id)
+        public T GetByID(int id)
         {
-            throw new NotImplementedException();
+            return _context.Set<T>().Find(id);
         }
 
         public List<T> GetList()
         {
-            throw new NotImplementedException();
+            return _context.Set<T>().ToList();
         }
 
         public void Insert(T t)
         {
-            throw new NotImplementedException();
+            _context.Add(t);
+            _context.SaveChanges();
         }
 
         public void Update(T t)
         {
-            throw new NotImplementedException();
-        }
-
-        T IGeneric<T>.GetByID(int id)
-        {
-            throw new NotImplementedException();
+            _context.Update(t);
+            _context.SaveChanges();
         }
     }
 }

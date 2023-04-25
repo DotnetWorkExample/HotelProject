@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.DataAccessLayer.Abstract
 {
-    public interface ISubscribe : IGeneric<Subscribe>
+    public interface ISubscribeDal : IGenericDal<Subscribe>
     {
     }
 }

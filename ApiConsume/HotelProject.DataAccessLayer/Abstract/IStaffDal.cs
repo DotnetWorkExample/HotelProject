@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.DataAccessLayer.Abstract
 {
-    public interface IStaffDal : IGeneric<Staff>
+    public interface IStaffDal : IGenericDal<Staff>
     {
     }
 }

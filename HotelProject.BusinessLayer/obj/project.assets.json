@@ -6046,24 +6046,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zahit\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hsyndlgc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zahit\\source\\repos\\HotelProject\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\hsyndlgc\\Source\\Repos\\HotelProject\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj",
       "projectName": "HotelProject.BusinessLayer",
-      "projectPath": "C:\\Users\\zahit\\source\\repos\\HotelProject\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\zahit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zahit\\source\\repos\\HotelProject\\HotelProject.BusinessLayer\\obj\\",
+      "projectPath": "C:\\Users\\hsyndlgc\\Source\\Repos\\HotelProject\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\hsyndlgc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hsyndlgc\\Source\\Repos\\HotelProject\\HotelProject.BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\zahit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\hsyndlgc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6077,11 +6072,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\zahit\\source\\repos\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\zahit\\source\\repos\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj"
+            "C:\\Users\\hsyndlgc\\Source\\Repos\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\hsyndlgc\\Source\\Repos\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj"
             },
-            "C:\\Users\\zahit\\source\\repos\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\zahit\\source\\repos\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj"
+            "C:\\Users\\hsyndlgc\\Source\\Repos\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\hsyndlgc\\Source\\Repos\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj"
             }
           }
         }
