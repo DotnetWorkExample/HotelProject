@@ -49,6 +49,9 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.Property<string>("Wifi")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("adna")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("RoomID");
 
                     b.ToTable("Rooms");
