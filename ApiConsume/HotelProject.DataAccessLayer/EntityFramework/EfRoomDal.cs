@@ -2,14 +2,19 @@
 using HotelProject.DataAccessLayer.Concrete;
 using HotelProject.DataAccessLayer.Repositories;
 using HotelProject.EntityLayer.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace HotelProject.DataAccessLayer.EntityFramework
 {
     public class EfRoomDal : GenericRepository<Room>, IRoomDal
     {
-        public EfRoomDal(HotelContext hotelContext) : base(hotelContext)
+        public EfRoomDal(Context context) : base(context)
         {
-            
+
         }
     }
 }
